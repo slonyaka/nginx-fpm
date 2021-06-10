@@ -1,2 +1,7 @@
 /data/*
 !/data/.gitkeep
+/.idea/.gitignore
+/.idea/deployment.xml
+/.idea/modules.xml
+/.idea/nginx-fpm.iml
+/.idea/vcs.xml

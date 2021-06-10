@@ -6,7 +6,7 @@ services:
       - 7070:80
     volumes:
       - ./www:/usr/share/nginx/html
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf #options: default|laravel|wordpress.conf
     links:
       - php
       - mysql
